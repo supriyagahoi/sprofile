@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Hairline&family=Bungee+Inline&family=Bungee+Outline&family=Bungee+Shade&display=swap');
+/* <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+/*  
+@root{
+  font-family: 'Bungee', cursive;
+  font-family: 'Bungee Hairline', cursive;
+  font-family: 'Bungee Inline', cursive;
+  font-family: 'Bungee Outline', cursive;
+  font-family: 'Bungee Shade', cursive;
+
+  #bbe1fa
+  #3282b8
+ } */
+
+
+*{
+  padding: 0rem;
+  margin: 0rem;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.842);
+  /* color: #64ffda; */
+}
+
+.App {
+  text-align: center;
+  cursor: pointer;
+  background-color:#0f4c75;
+  /* background-color: #0a192f; */
+  height: 100%;
+  width: 100%;
+   
+}
+
+
+.App-logo {
+  height: 20vmin;
+  /* pointer-events:none; */
+  margin-right: -50%; 
+  padding: 2rem;
+  z-index: 1;
+  margin-bottom: 35rem;
+  
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 15s linear;
+  }
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+.navbar{
+  font-family: 'Mali', cursive;
+  padding: 0.9rem 1.5rem 9.0rem 1.5rem;
+ 
+}
+.nameof{
+  text-align: left;
+  position: fixed;
+  font-size: large;
+  font-style: unset;
+  letter-spacing: 0.2rem;
+  animation: inherit;
+  z-index: 1;
+}
+
+.nameof:hover{
+  animation: shake 0.62s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 100rem;
+
+}
+
+.navula{
+  text-align: right;
+  float: right;
+  text-decoration: none;
+}
+
+.navlia{
+  list-style-type: none;
+  padding: 0.5rem;
+  /* color: white; */
+  color: rgba(255, 255, 255, 0.842);
+ 
+}
+
+.navlia:hover{
+   
+   /* transform-origin: left center; */
+   /* transform-style: preserve-3d; */
+   display: flex;
+   /* transition: all 1.0s cubic-bezier(.25,.8,.25,1); */
+   letter-spacing: 0.2rem;
+} 
+
+
+.frontImg{
+  height: 678px;
+  width: 492px;
+  margin-top: 0px;
+  padding-top: 4px;
+  z-index: -1;
+  margin-inline-end: -101px;
+  opacity: 0.85;
+  /* border-image: 30 stretch; */
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 9px 20px 0 rgba(12, 12, 12, 0.19);
+
+
+}
+
+
+.App-header {
+   min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 104px;
+  
+}
+.container{
+  display:inline-block;
+  padding-top: -10px;
+  margin-top: -120px;
+  margin-left: -110px;
+}
+
+.headercontain{
+  font-family: 'Bungee Outline', cursive;
+    white-space: nowrap;
+    font-size: 10.2vw;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: -600px;
+    z-index: +1;
+    
+}
+.headercontain:hover{
+  overflow: hidden;
+  font-family: 'Bungee Inline', cursive;
+  font-weight: lighter;
+  animation: 
+    /* pulse 3s ease infinite alternate, */ 
+    nudge 5s linear infinite alternate;
+   
+}
+
+.bottomcontain{
+  margin: 0px 860px 57px 0px;
+  font-size: medium;
+  font-family: 'Mali', cursive;
+}
+
+.writtencontain{
+     padding: 0px 0px 0px 0px ;
+  margin: 61px 6px 8px 6px;
+}
+
+.work, .contact, .about{
+  font-family: 'Bungee Outline', cursive;
+  font-size: 10.2vw;
+  /* letter-spacing: 0.03em; */
+  font-weight: normal;
+  opacity: 90%;
+  padding: 0px 25px 0px 25px;
+}
+ .work:hover, .contact:hover, .about:hover{
+  letter-spacing: 6px;
+ }
+
+ .about, .contact{
+  text-align: right;
+  margin-bottom: -195px;
+ }
+ .work{
+  text-align: left;
+  margin-bottom: -195px;
+ }
+ 
+
+ .boldid{
+  font-family: 'Bungee Inline', cursive;
+  font-weight: lighter;
+  /* opacity: 100%; */
+ }
+
+ .aboutContainer, .workContainer, .contContainer{
+  margin: 0px 0px;
+  /* padding: 0px 0px 0px 0px; */
+  padding: 4px 0px 64px 0px;
+ }
+
+
+/*Card*/
+ 
+.card1, .card2, .card3{
+  display: inline-block;
+  padding: 0px 0px 0px 0px;
+  z-index: -1;
+}
+
+
+.card1,.card3{
+  margin:  -280px 600px 0px 0px;
+    }
+
+.card2{
+  margin: -280px -600px 0px 0px;
+
+}
+
+.cardimg{
+  width:360px;
+  height:360px;
+  opacity: 0.9;
+  animation: pulse infinite 15s linear;
+
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 360px;
+  height: 360px;
+  perspective: 1000px; 
+  display: inline-block;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; 
+  backface-visibility: hidden;
+  box-shadow:  5px 8px 6px #222222be;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: rgba(0, 0, 0, 0.726);/*change*/
+  color: white;
+  transform: rotateY(180deg);
+  /* font-family: 'Mali', cursive; */
+}
+
+.contant h2{
+  font-family: 'Bungee Hairline', cursive;
+  /* font-family: 'Roboto', sans-serif; */
+  font-weight: bolder;
+  padding: 34px 0px 0px 0px;
+
+}
+.contant p{
+  font-family: 'Bungee Hairline', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-weight:100;
+  word-spacing: 7px;
+  text-align: center;
+  letter-spacing:2px;
+  padding: 6px 36px;
+  line-height: 25px;
+}
+
+ .card3 .flip-card{
+  background-color: transparent;
+  perspective: 1000px; 
+  display: inline-block;
+} 
+
+/* card closed */
+
+ .btn{
+   background-color: transparent;
+   /* border: 1px solid #64ffda; */
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 30px;
+ }
+
+ .icon {
+  padding: 1%;
+  margin: 8px;
+   display:inline-flex;        
+ }
+
+ .icon:hover{
+  animation: App-logo-spin infinite 8s linear;
+ }
+
+ .footer{
+  color: #8892b0;
+  display:inline-block;
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: -8px;
+}
+
+ 
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes nudge {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  
+  50% {
+    transform: translate(90px, 0);
+  }
+  
+  80% {
+    transform: translate(-90px, 0);
+  }
+}
+@keyframes pulse {
+  from{ 
+    opacity: 0.9;
+    filter: grayscale(10%);
+  }
+  to {
+    opacity: 0.95;
+    filter: grayscale(90%);
+  } 
+}
+
+ @keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+} 
+
+/* .frontImg:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+} */
+
+
+/* @media  (max-width:641px) {
+  html{
+    font-size:50%
+
+  }
+} */
+
+
+
